@@ -31,3 +31,54 @@
           .search-segment.search-submit--inline
             %input(type="submit" value="Find Jobs")
             %a.search-advanced--inline(href="#") Advanced Job Search
+      .resultsInter.row
+        %aside.resultsInter-sort.col-md-2
+          %p.sort-description plumber Jobs in Daphne, AL
+          %p.sort-type Sort by:
+            %strong< relevance
+            \ - 
+            %a(href="") date
+          .filter-group
+            %p.filter-label Distance:
+            %select
+              %option within 5 miles
+              %option within 10 miles
+              %option within 15 miles
+              %option within 25 miles
+              %option within 50 miles
+              %option within 100 miles
+          .filter-group
+            %p.filter-label Salary Estimate
+            %p.filter-value
+              %a.filter-link(href="")< $35,000+
+               (2)
+            %p.filter-value
+              %a.filter-link(href="")< $45,000+
+               (1)
+          .filter-group
+            %p.filter-label Job Type
+            %p.filter-value
+              %a.filter-link(href="")< Full-Time
+               (2)
+            %p.filter-value
+              %a.filter-link(href="")< Contract
+               (1)
+          .filter-group
+            %p.filter-label Location
+            %p.filter-value
+              %a.filter-link(href="")< Mobile, AL
+               (2)
+            %p.filter-value
+              %a.filter-link(href="")< Plumber jobs nationwide
+          .filter-group
+            %p.filter-label Company
+            %p.filter-value
+              %a.filter-link(href="")< TradeSource, Inc.
+               (2)
+            %p.filter-value
+              %a.filter-link(href="")< Aerotek
+               (1)
+            %p.filter-value
+              %a.filter-link(href="")< Lowe's
+               (1)
+
