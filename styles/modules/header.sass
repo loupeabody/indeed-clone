@@ -1,0 +1,17 @@
+header
+	border-bottom: 1px solid rgba(0,0,0,0.2)
+	padding: 10px
+	margin-bottom: 20px
+	@include clearfix()
+
+.nav-main a,
+.nav-user a
+	display: inline-block
+	margin-right: 25px
+	&:last-child
+		margin-right: 0
+
+.nav-main
+	float: left
+.nav-user
+	float: right

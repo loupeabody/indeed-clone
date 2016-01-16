@@ -7,3 +7,47 @@
     %title Job Search | one search. all jobs. Indeed.com
     %link(rel="stylesheet" href="styles/style.css")
   %body
+    %header
+      %nav.nav-main
+        %a.active(href="#") Find Jobs
+        %a(href="#") Find Resumes
+        %a(href="#") Employers / Post Job
+      %nav.nav-user
+        %a.emphasized(href="#") Upload your resume
+        %a(href="#") Sign In
+    .splash
+      %h1.splash-logo Indeed. One Search. All Jobs
+      %form.search
+        .search-segment
+          %label.search-label--jumbo what
+          %input(type="text" name="q")
+          %span.search-helpText job title, keywords, or company name
+        .search-segment
+          %label.search-label--jumbo where
+          %input(type="text" name="q")
+          %span.search-helpText city, state, or zip code
+        .search-segment
+          %input(type="submit" value="Find Jobs")
+          %a(href="#") Advanced Job Search
+      %p
+        %img(src="assets/resume_upload.png" width="18" height="24")
+        %a.embolden(href="#") Upload Your Resume - 
+        It only takes a few seconds
+      %p
+        829,238 new 
+        %a(href="#") jobs
+         in the last 7 days
+      %p Search job sites, newspapers, associations and company career pages.
+      %p.splash-learn
+        Learn more about 
+        %a(href="#") How the world works
+    %footer
+      %nav.nav-help
+        %a.faded(href="#") Salaries
+        %a.faded(href="#") Trends
+        %a.faded(href="#") Browse Jobs
+        %a.faded(href="#") API
+        %a.faded(href="#") Countries
+        %a.faded(href="#") Help Center
+      %nav.nav-legal
+        %a.faded(href="#") Cookies, Privacy, and Terms

@@ -1070,10 +1070,8 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #337ab7;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #23527c;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted;
@@ -5825,3 +5823,59 @@ html {
 
 body {
   font-family: "Arial",sans-serif; }
+
+a {
+  color: #00c; }
+
+.active {
+  font-weight: 600;
+  color: #000; }
+
+.faded {
+  color: #77c; }
+
+.emphasized {
+  color: #f60; }
+
+.embolden {
+  font-weight: 600; }
+
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 20px; }
+  header:before, header:after {
+    content: " ";
+    display: table; }
+  header:after {
+    clear: both; }
+
+.nav-main a,
+.nav-user a {
+  display: inline-block;
+  margin-right: 25px; }
+  .nav-main a:last-child,
+  .nav-user a:last-child {
+    margin-right: 0; }
+
+.nav-main {
+  float: left; }
+
+.nav-user {
+  float: right; }
+
+.splash {
+  width: 700px;
+  margin: 0 auto; }
+
+.splash-logo {
+  display: block;
+  width: 250px;
+  height: 109px;
+  margin-bottom: 20px;
+  background-image: url(/assets/job_search_indeed.png);
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
