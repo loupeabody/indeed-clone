@@ -1,0 +1,47 @@
+.search
+	position: relative
+	margin-bottom: 20px
+	@include clearfix()
+
+.search-segment
+	display: inline-block
+	float: left
+	margin-right: 4px
+	text-align: left
+	vertical-align: bottom
+	&:last-child
+		margin-right: 0
+		padding-top: 33px
+	label
+		display: block
+		color: $indeed-orange
+		&.search-label--jumbo
+			font-size: 20px
+	input[type="text"]
+		width: 280px
+		height: 30px
+		padding-left: 5px
+		font-size: 18px
+		border: 1px solid rgba(0,0,0,0.25)
+		box-shadow: 1px 1px 2px rgba(0,0,0,0.15)
+		outline: none
+	input[type="submit"]
+		font-size: 18px
+		height: 30px
+		color: #fff 
+		outline: none
+		border: 1px solid #1c4ed9
+		border-top: 1px solid #2f62f1
+		border-bottom: 1px solid #133fbb
+		background-color: #3163f2
+
+.search-advanced,
+.search-helpText
+	display: block
+	font-size: 12px
+	padding-top: 3px
+	color: rgba(0,0,0,0.45)
+
+.search-advanced
+	font-size: 11px
+	color: $indeed-fadedBlue

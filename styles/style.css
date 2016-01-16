@@ -5843,7 +5843,7 @@ a {
 header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding: 10px;
-  margin-bottom: 20px; }
+  margin-bottom: 8px; }
   header:before, header:after {
     content: " ";
     display: table; }
@@ -5866,7 +5866,12 @@ header {
 
 .splash {
   width: 700px;
-  margin: 0 auto; }
+  margin: 20px auto;
+  text-align: center; }
+  .splash p {
+    margin-top: 8px 0; }
+  .splash .splash-learn {
+    margin-top: 75px; }
 
 .splash-logo {
   display: block;
@@ -5874,6 +5879,68 @@ header {
   height: 109px;
   margin-bottom: 20px;
   background-image: url(/assets/job_search_indeed.png);
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+.search {
+  position: relative;
+  margin-bottom: 20px; }
+  .search:before, .search:after {
+    content: " ";
+    display: table; }
+  .search:after {
+    clear: both; }
+
+.search-segment {
+  display: inline-block;
+  float: left;
+  margin-right: 4px;
+  text-align: left;
+  vertical-align: bottom; }
+  .search-segment:last-child {
+    margin-right: 0;
+    padding-top: 33px; }
+  .search-segment label {
+    display: block;
+    color: #f60; }
+    .search-segment label.search-label--jumbo {
+      font-size: 20px; }
+  .search-segment input[type="text"] {
+    width: 280px;
+    height: 30px;
+    padding-left: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+    outline: none; }
+  .search-segment input[type="submit"] {
+    font-size: 18px;
+    height: 30px;
+    color: #fff;
+    outline: none;
+    border: 1px solid #1c4ed9;
+    border-top: 1px solid #2f62f1;
+    border-bottom: 1px solid #133fbb;
+    background-color: #3163f2; }
+
+.search-advanced,
+.search-helpText {
+  display: block;
+  font-size: 12px;
+  padding-top: 3px;
+  color: rgba(0, 0, 0, 0.45); }
+
+.search-advanced {
+  font-size: 11px;
+  color: #77c; }
+
+.resultsPre-logo {
+  display: inline-block;
+  margin-top: 15px;
+  text-align: center;
   font: 0/0 a;
   color: transparent;
   text-shadow: none;
