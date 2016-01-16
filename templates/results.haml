@@ -19,15 +19,15 @@
       .resultsPre.row
         %h1.resultsPre-logo.col-md-2 Plumber Jobs, Employment in Daphne, AL | Indeed.com
           %img(src="assets/job_search_indeed.png" width="175" height="72")
-        %form.search
+        %form.search.col-md-10
           .search-segment
-            %label.search-label--jumbo what
+            %label.search-label--mini what:
             %input(type="text" name="q" value="plumber")
             %span.search-helpText job title, keywords, or company name
           .search-segment
-            %label.search-label--jumbo where
+            %label.search-label--mini where:
             %input(type="text" name="p" value="Daphne, AL")
             %span.search-helpText city, state, or zip code
-          .search-segment
+          .search-segment.search-submit--inline
             %input(type="submit" value="Find Jobs")
-            %a.search-advanced(href="#") Advanced Job Search
+            %a.search-advanced--inline(href="#") Advanced Job Search

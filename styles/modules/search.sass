@@ -8,15 +8,15 @@
 	float: left
 	margin-right: 4px
 	text-align: left
-	vertical-align: bottom
 	&:last-child
 		margin-right: 0
-		padding-top: 33px
 	label
 		display: block
 		color: $indeed-orange
 		&.search-label--jumbo
 			font-size: 20px
+		&.search-label--mini
+			font-size: 14px
 	input[type="text"]
 		width: 280px
 		height: 30px
@@ -26,7 +26,7 @@
 		box-shadow: 1px 1px 2px rgba(0,0,0,0.15)
 		outline: none
 	input[type="submit"]
-		font-size: 18px
+		font-size: 14px
 		height: 30px
 		color: #fff 
 		outline: none
@@ -35,6 +35,12 @@
 		border-bottom: 1px solid #133fbb
 		background-color: #3163f2
 
+.search-submit
+	padding-top: 33px
+
+.search-submit--inline
+	padding-top: 24px
+
 .search-advanced,
 .search-helpText
 	display: block
@@ -42,6 +48,11 @@
 	padding-top: 3px
 	color: rgba(0,0,0,0.45)
 
-.search-advanced
+.search-advanced,
+.search-advanced--inline
 	font-size: 11px
 	color: $indeed-fadedBlue
+
+.search-advanced--inline
+	display: inline-block
+	margin-left: 15px
