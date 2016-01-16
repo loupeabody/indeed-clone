@@ -5879,3 +5879,21 @@ header {
   text-shadow: none;
   background-color: transparent;
   border: 0; }
+
+.footer--main {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 10px; }
+  .footer--main:before, .footer--main:after {
+    content: " ";
+    display: table; }
+  .footer--main:after {
+    clear: both; }
+
+.nav-help {
+  float: left; }
+
+.nav-legal {
+  float: right; }
