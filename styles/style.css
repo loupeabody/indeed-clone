@@ -5864,6 +5864,16 @@ header {
 .nav-user {
   float: right; }
 
+@media screen and (max-width: 720px) {
+  .nav-main,
+  .nav-user {
+    float: none;
+    text-align: center; }
+  .nav-main a,
+  .nav-user a {
+    display: block;
+    margin: 10px auto; } }
+
 .splash {
   width: 700px;
   margin: 20px auto;
@@ -5884,6 +5894,15 @@ header {
   text-shadow: none;
   background-color: transparent;
   border: 0; }
+
+@media screen and (max-width: 720px) {
+  .splash {
+    width: 320px;
+    text-align: center; }
+    .splash .splash-learn {
+      margin-top: 20px; }
+  .splash-logo {
+    margin: 0 auto; } }
 
 .search {
   position: relative;
@@ -5955,6 +5974,19 @@ header {
   color: rgba(0, 0, 0, 0.65);
   display: block;
   margin-top: -10px; }
+
+@media screen and (max-width: 720px) {
+  .search {
+    display: block;
+    text-align: center; }
+  .search-segment {
+    width: 100%; }
+    .search-segment input[type="text"] {
+      width: 100%; }
+  .search-submit {
+    width: 100%;
+    padding-top: 24px;
+    text-align: center; } }
 
 .resultsInter-sort {
   font-size: 12px;
@@ -6082,7 +6114,7 @@ header {
     margin: 10px 0; }
 
 .emailSignUp--fixed {
-  width: 260px;
+  width: 240px;
   font-size: 14px; }
   .emailSignUp--fixed input[type="text"] {
     display: block;
@@ -6120,3 +6152,9 @@ header {
   font-size: 12px;
   padding: 40px 40px 15px;
   text-align: center; }
+
+@media screen and (max-width: 720px) {
+  .nav-help,
+  .nav-legal {
+    float: none;
+    text-align: center; } }
