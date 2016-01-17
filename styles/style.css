@@ -5980,12 +5980,15 @@ header {
     display: block;
     text-align: center; }
   .search-segment {
-    width: 100%; }
+    float: none;
+    width: 100%;
+    margin-bottom: 5px; }
     .search-segment input[type="text"] {
       width: 100%; }
-  .search-submit {
+  .search-submit,
+  .search-submit--inline {
     width: 100%;
-    padding-top: 24px;
+    padding-top: 18px;
     text-align: center; } }
 
 .resultsInter-sort {
@@ -6013,6 +6016,27 @@ header {
 .filter-link {
   color: rgba(0, 0, 0, 0.6);
   cursor: pointer; }
+
+@media screen and (max-width: 980px) {
+  .resultsInter-sort {
+    padding: 0 45px;
+    margin: 0 auto 30px;
+    text-align: center; }
+  .sort-description,
+  .sort-type {
+    text-align: center; }
+  .sort-description {
+    font-size: 18px;
+    margin-top: 20px; }
+  .sort-type {
+    margin-bottom: bottom; }
+  .filter-group {
+    width: 130px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 10px 0;
+    text-align: left;
+    overflow: auto; } }
 
 .listings-total {
   font-size: 12px;
@@ -6130,6 +6154,12 @@ header {
   background-color: transparent;
   border: 0; }
 
+@media screen and (max-width: 980px) {
+  .resultsPre-logo {
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 35px; } }
+
 .footer--main {
   position: absolute;
   width: 100%;
@@ -6154,6 +6184,8 @@ header {
   text-align: center; }
 
 @media screen and (max-width: 720px) {
+  .footer--main {
+    position: relative; }
   .nav-help,
   .nav-legal {
     float: none;

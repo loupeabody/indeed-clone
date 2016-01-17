@@ -19,7 +19,7 @@
       .resultsPre.row
         %h1.resultsPre-logo.col-md-2 Plumber Jobs, Employment in Daphne, AL | Indeed.com
           %img(src="assets/job_search_indeed.png" width="175" height="72")
-        %form.search.col-md-10
+        %form.search.col-md-10.hidden-xs.hidden-sm
           .search-segment
             %label.search-label--mini what:
             %input(type="text" name="q" value="plumber")
@@ -32,7 +32,7 @@
             %input(type="submit" value="Find Jobs")
             %a.search-advanced--inline(href="#") Advanced Job Search
       .resultsInter.row
-        %aside.resultsInter-sort.col-md-2
+        %aside.resultsInter-sort.col-md-2.col-sm-12
           %p.sort-description plumber Jobs in Daphne, AL
           %p.sort-type Sort by:
             %strong< relevance
@@ -83,7 +83,7 @@
                (1)
         %section.resultsInter-listings.col-md-5
           %p.listings-total.pull-right Jobs 1 to 3 of 5
-          %p
+          %p.hidden-xs.hidden-sm
             %img(src="assets/resume_upload.png" width="18" height="24")
             %a(href="#")< Post Your Resume
             \- 
@@ -231,7 +231,7 @@
               &copy; 2016 Indeed 
               \- 
               %a.faded(href="#") Cookies, Privacy, and Terms
-        %section.col-md-5
+        %section.col-md-5.hidden-xs.hidden-sm
           .emailSignUp--fixed
             %img.icon(src="assets/email_icon.png") 
             %p
@@ -242,4 +242,4 @@
             %label.optional
               %input(type="checkbox" checked) 
                Also get an email with jobs recommended just for me
-            %small You can cancel email alerts at any time.
+            %small You can cancel email alerts at any time
