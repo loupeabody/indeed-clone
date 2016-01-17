@@ -5974,6 +5974,59 @@ header {
   color: rgba(0, 0, 0, 0.6);
   cursor: pointer; }
 
+.listings-total {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.45); }
+
+.listings-show {
+  margin: 20px 0; }
+
+.listings-job {
+  margin-bottom: 20px; }
+
+.job-title,
+.job-title--new {
+  margin-bottom: -3px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4072ff; }
+
+.job-title--new:after {
+  content: ' - new';
+  font-size: 12px;
+  font-weight: 400;
+  color: #f00; }
+
+.job-company {
+  margin-bottom: 4px; }
+
+.job-location {
+  color: rgba(0, 0, 0, 0.65);
+  margin: 8px 0; }
+
+.job-description {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 4px; }
+
+.job-posted {
+  margin-bottom: 4px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.65); }
+
+.job-sponsored {
+  color: #CD2960; }
+
+.filled,
+.empty {
+  font-style: normal; }
+
+.filled {
+  color: orange; }
+
+.empty {
+  color: lightgrey; }
+
 .resultsPre-logo {
   display: inline-block;
   margin-top: 0;
