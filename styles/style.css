@@ -6051,6 +6051,43 @@ header {
   margin-top: -15px;
   font-size: 12px; }
 
+.emailSignUp,
+.emailSignUp--fixed {
+  padding: 10px;
+  font-size: 14px;
+  background-color: #ebebeb; }
+  .emailSignUp .icon,
+  .emailSignUp--fixed .icon {
+    float: left;
+    padding-bottom: 15px;
+    padding-right: 7px; }
+  .emailSignUp label,
+  .emailSignUp--fixed label {
+    font-weight: 400;
+    padding-right: 10px; }
+  .emailSignUp input[type="text"],
+  .emailSignUp--fixed input[type="text"] {
+    height: 30px;
+    margin-right: 10px; }
+  .emailSignUp input[type="submit"],
+  .emailSignUp--fixed input[type="submit"] {
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    background-color: #f3f3f3;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15); }
+  .emailSignUp .optional,
+  .emailSignUp--fixed .optional {
+    display: block;
+    margin: 10px 0; }
+
+.emailSignUp--fixed {
+  width: 260px;
+  font-size: 14px; }
+  .emailSignUp--fixed input[type="text"] {
+    display: block;
+    margin-bottom: 10px; }
+
 .resultsPre-logo {
   display: inline-block;
   margin-top: 0;
