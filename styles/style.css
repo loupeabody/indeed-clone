@@ -5925,6 +5925,8 @@ header {
     border-top: 1px solid #2f62f1;
     border-bottom: 1px solid #133fbb;
     background-color: #3163f2; }
+  .search-segment input.text--mini {
+    width: 200px; }
 
 .search-submit {
   padding-top: 33px; }
@@ -5947,6 +5949,12 @@ header {
 .search-advanced--inline {
   display: inline-block;
   margin-left: 15px; }
+
+.search-sample {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.65);
+  display: block;
+  margin-top: -10px; }
 
 .resultsInter-sort {
   font-size: 12px;
@@ -6015,7 +6023,7 @@ header {
   color: rgba(0, 0, 0, 0.65); }
 
 .job-sponsored {
-  color: #CD2960; }
+  color: #CD29C0; }
 
 .filled,
 .empty {
@@ -6026,6 +6034,22 @@ header {
 
 .empty {
   color: lightgrey; }
+
+.listings-resume {
+  font-size: 16px;
+  text-align: center;
+  margin: 30px 0; }
+  .listings-resume .raquo {
+    color: #f60;
+    font-size: 23px;
+    font-weight: 600; }
+
+.listings-break {
+  border-bottom: 2px solid #f60; }
+
+.listings-hiring {
+  margin-top: -15px;
+  font-size: 12px; }
 
 .resultsPre-logo {
   display: inline-block;
@@ -6054,3 +6078,8 @@ header {
 
 .nav-legal {
   float: right; }
+
+.footer--results {
+  font-size: 12px;
+  padding: 40px 40px 15px;
+  text-align: center; }
